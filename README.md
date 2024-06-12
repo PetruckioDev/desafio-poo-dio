@@ -5,7 +5,6 @@ Este é um projeto exemplo de um sistema de Bootcamp para desenvolvedores, utili
 ## Estrutura do Projeto
 
 O projeto é composto pelas seguintes classes principais:
-
 - `Developer`: Representa um desenvolvedor que pode se inscrever em bootcamps e completar conteúdos.
 - `BootCamp`: Representa um bootcamp com uma lista de conteúdos (cursos e mentorias) e uma lista de desenvolvedores inscritos.
 - `Content`: Uma classe abstrata que representa o conteúdo que pode ser um `Course` ou `Mentoring`.
