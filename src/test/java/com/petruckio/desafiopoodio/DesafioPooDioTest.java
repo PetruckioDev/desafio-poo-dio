@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @SpringBootTest
-class DesafioPooDioTest {
+class DesafioPooDioTests {
     private Developer devF;
     private Developer devM;
     private BootCamp bootcamp;
