@@ -1,20 +1,33 @@
 package com.petruckio.desafiopoodio.model;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
-public class Course {
-    private String title;
-    private String description;
+@SuperBuilder
+@EqualsAndHashCode(callSuper = true)
+public class Course extends Content {
+
     private int durationInHours;
 
-    public void calculateXp() {
-        // TODO document why this method is empty
+    @Override
+    public double calculateExperience() {
+        return experience + 10d;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Course{" +
+                "title=" + super.getTitle() +
+                ", description=" + super.getDescription() +
+                ", durationInHours=" + durationInHours +
+                '}';
     }
 }
+
