@@ -30,3 +30,17 @@ Q.idea/sonarlint/securityhotspotstore/2/1/21c81cd790ad0860cc9bae135fd8bade936f16
 Q.idea/sonarlint/securityhotspotstore/6/f/6f2953469b5eb7fe27fea07cb522d23ec5550bc7,7/a/7ac837f6d9558c8b10a28ca6c7a328a5d4f7f728
 w
 G.idea/sonarlint/issuestore/2/1/21c81cd790ad0860cc9bae135fd8bade936f16f2,3/2/328d150614658a2962508557d07338361d7bd09b
+l
+<src/main/java/com/petruckio/desafiopoodio/model/Content.java,d/0/d0d292aee5e89d29b3e7628a8427fc56d733f45e
+l
+<src/main/java/com/petruckio/desafiopoodio/UtilConstants.java,a/1/a14f2cc1c59a474d6bb14420fb6c0bca539a1f81
+r
+Bsrc/main/java/com/petruckio/desafiopoodio/utils/UtilConstants.java,2/6/2664d2410d971e65aa6a95531c0e22d83bfaa042
+m
+=src/main/java/com/petruckio/desafiopoodio/model/BootCamp.java,7/4/745a8439debef137319c07ac5b78607739d97760
+n
+>src/main/java/com/petruckio/desafiopoodio/model/Developer.java,2/5/253c79e4ba25022480799764743177c1fd51caee
+~
+Nsrc/main/java/com/petruckio/desafiopoodio/exception/EmptyContentException.java,a/b/ab666cbcafeb04b022f5619e56c229692651afb9
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
